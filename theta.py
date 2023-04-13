@@ -56,7 +56,7 @@ async def on_message(message):
     id = client.get_guild(761800211995426816)
     valid_users = ["WetLekWatta#2007", "soccer101#6988", "Black Magic#2215", "calminnit#6179",
                    "GreenCatapult__#3519", "Brshil#8757", "kahsaifs#5546", "renno#1061", "SK#8868", "VarshanJ#8509" ]
-    bad_words = ["Fuck", "Fuck you", "Shit", "Piss off", "Dick head", "Bitch", "Bollocks", "Wanker", "Skank", "Shut up"]
+    bad_words = ["Fuck", "Fuck you", "Shit", "Piss off", "Dick head", "Bitch", "Bollocks", "Wanker", "Shut up"]
 
     if message.channel.name == "general":
         for word in bad_words:
